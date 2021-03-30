@@ -1,0 +1,106 @@
+<section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Testimonials</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testimonials-content">
+                    <div class="testi-slider">
+                        <div class="slide">
+                            <div class="img">
+                                <img src="images/testimonial%20(3).png" alt="">
+                            </div>
+                           <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero enim qui, ullam voluptate consectetur?</p>
+                            <h6>Nancy Buyers</h6>
+                            <p>Co-founder</p>
+                           </div>
+                        </div>
+                        <div class="slide">
+                            <div class="img">
+                                <img src="images/testimonial%20(3).png" alt="">
+                            </div>
+                           <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero enim qui, ullam voluptate consectetur?</p>
+                            <h6>Nancy Buyers</h6>
+                            <p>Co-founder</p>
+                           </div>
+                        </div>
+                        <div class="slide">
+                            <div class="img">
+                                <img src="images/testimonial%20(3).png" alt="">
+                            </div>
+                           <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero enim qui, ullam voluptate consectetur?</p>
+                            <h6>Nancy Buyers</h6>
+                            <p>Co-founder</p>
+                           </div>
+                        </div>
+                        <div class="slide">
+                            <div class="img">
+                                <img src="images/testimonial%20(3).png" alt="">
+                            </div>
+                           <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero enim qui, ullam voluptate consectetur?</p>
+                            <h6>Nancy Buyers</h6>
+                            <p>Co-founder</p>
+                           </div>
+                        </div>
+
+                    </div>
+                    <div class="slider-controls">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    /* TESTIMONIALS */
+.testimonials{
+    padding: 100px 0px;
+    background-color: #f5f8fd;
+}
+
+.section-title h1:before{
+    left: 30%;
+}
+.testimonials .testimonials-content{
+    position: relative;
+    overflow: hidden;
+}
+.testimonials .testimonials-content .testi-slider .slide{
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border: 1px solid #eeeeee;
+    padding: 40px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+.testimonials .testimonials-content .testi-slider .slide .img{
+    flex: 0 0 128px;
+    max-width: 128px;
+}
+.testimonials .testimonials-content .testi-slider .slide p{
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+}
+.testimonials .testimonials-content .testi-slider .slide
+.testimonials .testimonials-content .testi-slider .slide h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 10px 0 5px;
+}
